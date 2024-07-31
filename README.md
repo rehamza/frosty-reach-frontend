@@ -1,3 +1,7 @@
+# Frosty reach frontend
+This is the frontend repository build on typescript lang , react and graphql for cold email marketing UI
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
 
 ## Getting Started
