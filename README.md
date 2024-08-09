@@ -47,7 +47,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## Major packages intalled
  Next js , @mui/x-data-grid , @mui/material , @emotion/react , @emotion/styled , lucide-react , numeral , recharts , axios , uuid , react-redux , @reducjs/toolkit , redux-persist etc
 
-development: @types/node @types/numeral  @types/uuid
+development: @types/node @types/numeral  @types/uuid   for validation and form handling react-hook-form yup @hookform/resolvers
 
 ### Short keys for fast development:
 1. tsc for fast component building

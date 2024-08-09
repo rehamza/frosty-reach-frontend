@@ -22,6 +22,7 @@ import {
 } from "redux-persist";
 import { PersistGate } from "redux-persist/integration/react";
 import createWebStorage from "redux-persist/lib/storage/createWebStorage";
+import { userReducer } from "@/state/reducers/user";
 
 /* REDUX PERSISTENCE */
 const createNoopStorage = () => {
@@ -51,6 +52,7 @@ const persistConfig = {
 const rootReducer = combineReducers({
   global: globalReducer,
   [api.reducerPath]: api.reducer,
+  user: userReducer.reducer
 });
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
